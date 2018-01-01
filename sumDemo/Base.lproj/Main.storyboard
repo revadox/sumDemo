@@ -91,10 +91,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="eFc-A9-Efy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="Ea4-Ip-6y4"/>
+                            <constraint firstItem="eFc-A9-Efy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="3x6-KL-wzd"/>
+                            <constraint firstItem="eFc-A9-Efy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="A1R-hT-HYX"/>
+                            <constraint firstItem="eFc-A9-Efy" firstAttribute="centerX" secondItem="Ctl-Js-wlr" secondAttribute="centerX" id="CnI-pc-I63"/>
                             <constraint firstAttribute="bottom" secondItem="Ctl-Js-wlr" secondAttribute="bottom" constant="20" symbolic="YES" id="FX2-oM-dqN"/>
-                            <constraint firstItem="eFc-A9-Efy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="UYh-RC-mXb"/>
-                            <constraint firstItem="eFc-A9-Efy" firstAttribute="centerX" secondItem="Ctl-Js-wlr" secondAttribute="centerX" id="ab6-m4-E7Q"/>
                             <constraint firstItem="Ctl-Js-wlr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="apR-yl-6I2"/>
                             <constraint firstAttribute="trailing" secondItem="Ctl-Js-wlr" secondAttribute="trailing" id="cV1-F7-BhQ"/>
                         </constraints>
@@ -102,7 +102,7 @@
                     </view>
                     <connections>
                         <outlet property="inputText" destination="eFc-A9-Efy" id="7l4-zj-8je"/>
-                        <outlet property="tableVIew" destination="Ctl-Js-wlr" id="Qdw-nk-x7f"/>
+                        <outlet property="tableView" destination="Ctl-Js-wlr" id="TfS-wY-ylk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

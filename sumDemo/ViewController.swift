@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate {
-    @IBOutlet var tableVIew: UITableView!
+    @IBOutlet var tableView: UITableView!
     
     @IBOutlet var inputText: UITextField!
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TextInputTableViewCell
        
-        let a : Int = indexPath.row
+        let row : Int = indexPath.row
         
         
         cell.Label1.text = ""
@@ -43,11 +43,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         cell.addButton.tag = indexPath.row
         cell.addButton.addTarget(self, action: #selector(addButton), for:UIControlEvents.touchUpInside)
         
-        cell.Label1.text = String(2*a+1)
-        
-        if (2*a+2) <= numberRows
+        cell.Label1.text = String(2*row+1)
+        //logic for when enter odd number lable2 should be empty
+        if (2*row+2) <= numberRows
         {
-            cell.Label2.text = String(2*a+2)
+            cell.Label2.text = String(2*row+2)
         }
    
      
@@ -99,7 +99,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         //textField code
         numberRows = Int(inputText.text!)!
         inputText.resignFirstResponder()  //if desired
-        tableVIew.reloadData()
+        tableView.reloadData()
         return true
     }
     
