@@ -14,6 +14,7 @@
 		7D46E5DE1FF751BF00CD10F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D46E5DC1FF751BF00CD10F6 /* LaunchScreen.storyboard */; };
 		7D46E5E91FF751BF00CD10F6 /* sumDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E5E81FF751BF00CD10F6 /* sumDemoTests.swift */; };
 		7D46E5F41FF751C000CD10F6 /* sumDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E5F31FF751C000CD10F6 /* sumDemoUITests.swift */; };
+		7D46E6081FF79DDB00CD10F6 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E6071FF79DDB00CD10F6 /* TextInputTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7D46E5EF1FF751C000CD10F6 /* sumDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D46E5F31FF751C000CD10F6 /* sumDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumDemoUITests.swift; sourceTree = "<group>"; };
 		7D46E5F51FF751C000CD10F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D46E6071FF79DDB00CD10F6 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7D46E5D31FF751BF00CD10F6 /* AppDelegate.swift */,
+				7D46E6071FF79DDB00CD10F6 /* TextInputTableViewCell.swift */,
 				7D46E5D51FF751BF00CD10F6 /* ViewController.swift */,
 				7D46E5D71FF751BF00CD10F6 /* Main.storyboard */,
 				7D46E5DA1FF751BF00CD10F6 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D46E5D61FF751BF00CD10F6 /* ViewController.swift in Sources */,
+				7D46E6081FF79DDB00CD10F6 /* TextInputTableViewCell.swift in Sources */,
 				7D46E5D41FF751BF00CD10F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
